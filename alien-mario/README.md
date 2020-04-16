@@ -1,5 +1,5 @@
-## Pong
-This based on one of the very first games to bring out the gaming industry.
+## Alien-Mario
+This is a copy of the Super Mario brothers game, with an alien sprite
 
 ### Implementation
 
