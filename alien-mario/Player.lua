@@ -184,6 +184,10 @@ function Player:update(dt)
 
     -- apply velocity
     self.y = self.y + self.dy * dt
+
+    if self.x  <= 0 then
+        love.event.quit()
+    end
 end
 
 -- jumping and block hitting logic

@@ -1,6 +1,12 @@
 ## Alien-Mario
 This is a copy of the Super Mario brothers game, with an alien sprite
 
+### Controls
+
+Left key - To move left
+Right key - To move right
+Space key - To jump
+
 ### Implementation
 
 The game was made using [love2d](https://love2d.org/).

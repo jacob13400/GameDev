@@ -134,6 +134,23 @@ function Map:init()
         end
     end
 
+    for x = 2, 6 do
+        for y = x + 7, self.mapHeight do
+            
+            -- support for multiple sheets per tile; storing tiles as tables 
+            self:setTile(x, y, 11)
+        end
+    end
+
+    for y = 8, self.mapHeight do
+            
+        -- support for multiple sheets per tile; storing tiles as tables 
+        self:setTile(1, y, 12)
+    end
+    
+    self:setTile(1, 7, 8)
+
+
     -- start the background music
     self.music:setLooping(true)
     self.music:play()
