@@ -1,11 +1,3 @@
---[[
-    Super Mario Bros. Demo
-    Author: Colton Ogden
-    Original Credit: Nintendo
-
-    Demonstrates rendering a screen of tiles.
-]]
-
 Class = require 'class'
 push = require 'push'
 
